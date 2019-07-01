@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zsf-app/static/css/main.b03546c8.chunk.css",
+    "main.js": "/zsf-app/static/js/main.7d4d352b.chunk.js",
+    "main.js.map": "/zsf-app/static/js/main.7d4d352b.chunk.js.map",
+    "runtime~main.js": "/zsf-app/static/js/runtime~main.5f7439a6.js",
+    "runtime~main.js.map": "/zsf-app/static/js/runtime~main.5f7439a6.js.map",
+    "static/js/2.ff285e66.chunk.js": "/zsf-app/static/js/2.ff285e66.chunk.js",
+    "static/js/2.ff285e66.chunk.js.map": "/zsf-app/static/js/2.ff285e66.chunk.js.map",
+    "index.html": "/zsf-app/index.html",
+    "precache-manifest.88845af7add2f8edaa5285673cedcab3.js": "/zsf-app/precache-manifest.88845af7add2f8edaa5285673cedcab3.js",
+    "service-worker.js": "/zsf-app/service-worker.js",
+    "static/css/main.b03546c8.chunk.css.map": "/zsf-app/static/css/main.b03546c8.chunk.css.map"
+  }
+}
