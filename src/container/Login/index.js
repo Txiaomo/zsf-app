@@ -10,7 +10,7 @@ class Login extends React.Component {
     return (
       <div>
         <Link to="/register">进入注册</Link>
-        <div onClick={() => (location.pathname = "/register")}>进入注册</div>
+        {/* <div onClick={() => (location.pathname = "/register")}>进入注册</div> */}
         <div onClick={()=>this.props.history.push('/register')}>进入注册</div>
         登录
       </div>
