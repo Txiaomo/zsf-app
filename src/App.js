@@ -3,12 +3,14 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import store from "./store";
 import Login from "./container/Login";
+// import snow from './component/snow/index.js'
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
         <BrowserRouter>
+          {/* <snow /> */}
           <div>
             <Header />
             <Route path="/" exact component={Login} />
@@ -17,18 +19,9 @@ class App extends Component {
         </BrowserRouter>
       </Provider>
     );
-    /* return (
-      <BrowserRouter>
-      <Header></Header>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/topics" component={Topics} />
-        </div>
-      </BrowserRouter>
-    ); */
   }
 }
+
 function Home() {
   return <h2>Home</h2>;
 }
